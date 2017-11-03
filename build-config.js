@@ -39,6 +39,7 @@ module.exports = {
 		'@ckeditor/ckeditor5-basic-styles/src/attributecommand',
 		'@ckeditor/ckeditor5-image/src/imagetextalternative',
 		'@ckeditor/ckeditor5-upload/src/imageuploadbutton',
+		'@ckeditor/ckeditor5-upload/src/evfinderbutton',
 		'@ckeditor/ckeditor5-markdown-gfm/src/gfmdataprocessor'
 	],
 
@@ -60,7 +61,8 @@ module.exports = {
 				'code',
 				'|',
 				'link',
-				'insertImage',
+/* 				'insertImage', */
+				'insertImageEVFinder',
 				'|',
 				'undo',
 				'redo'
