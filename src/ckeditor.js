@@ -25,7 +25,7 @@ import ContextualtoolbarPlugin from '@ckeditor/ckeditor5-ui/src/toolbar/contextu
 import AttributecommandPlugin from '@ckeditor/ckeditor5-basic-styles/src/attributecommand';
 import ImagetextalternativePlugin from '@ckeditor/ckeditor5-image/src/imagetextalternative';
 import ImageuploadbuttonPlugin from '@ckeditor/ckeditor5-upload/src/imageuploadbutton';
-import EvfinderbuttonPlugin from '@ckeditor/ckeditor5-upload/src/evfinderbutton';
+import EvfinderbuttonPlugin from '@ckeditor/ckeditor5-evfinder/src/evfinderbutton';
 import GfmdataprocessorPlugin from '@ckeditor/ckeditor5-markdown-gfm/src/gfmdataprocessor';
 
 export default class EVEditor extends EVEditorBase {}
